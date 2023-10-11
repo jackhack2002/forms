@@ -1,0 +1,102 @@
+header{
+    background-color: rgb(112, 247, 236);
+    border-style: double;
+    border-width: 5px;
+    border-color: blue;
+    color:rgb(255, 0, 0);
+    padding-left: 45%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    box-shadow:3px 3px 5px hsl(268, 100%, 50%), -3px -3px 5px hsl(245, 94%, 49%),3px 3px 5px hsl(6, 100%, 50%), -3px -3px 5px hsl(0, 94%, 49%);
+}
+
+main{
+    background-color: rgb(101, 187, 248);
+}
+
+
+
+form{
+    border-style:solid;
+    border-width: 5px;
+    border-color: orangered;
+    box-shadow:3px 3px 10px hsl(0, 88%, 53%), -3px -3px 10px hsl(19, 98%, 49%), -3px -3px 10px hsl(0, 89%, 52%);
+
+}
+
+#a{
+    padding: 3%;
+}
+
+footer{
+    background-color: rgb(112, 247, 236);
+    border-style:double;
+    border-width: 5px;
+    border-color: blue;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow:3px 3px 5px hsl(222, 100%, 50%), -3px -3px 5px hsl(0, 94%, 49%),3px 3px 5px hsl(248, 100%, 50%), -3px -3px 5px hsl(0, 94%, 49%);
+}
+
+#b{
+    color: brown;
+}
+
+#d{
+    background-color: rgb(72, 117, 252);
+}
+
+input{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 122, 36);
+}
+
+.myComments{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 122, 36);
+}
+
+label{
+    font-size: large;
+    font-style:italic;
+    font: bold;
+    font-family: sans-serif;
+}
+
+#foot{
+    padding-left: 40%;
+}
+
+select{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 122, 36);
+}
+
+body{
+    background-color: rgb(0, 255, 81);
+}
+
+.shadow{
+    text-shadow: 3px 3px 5px hsl(268, 100%, 50%), -3px -3px 5px hsl(217, 94%, 49%),3px 3px 5px hsl(268, 100%, 50%), -3px -3px 5px hsl(217, 94%, 49%);
+}
+
+#exp{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 122, 36);
+    width: 25px;
+}
+
+button{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 122, 36);
+}

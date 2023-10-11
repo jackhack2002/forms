@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        FORMS
+    </title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="shadow">
+        <header>
+            <h1>FORMS</h1>
+        </header>
+        <main>
+            <form> <!--action="index.js" method="post"-->
+                <br>
+                <div id="a">
+                 
+                <label id="myTitle" for="myTitle">Title :</label>
+                <label for="Mr">Mr.</label>
+                <input type="radio" id="Mr" name="myTitle" value="Mr.">
+    
+                <label for="Mrs">Mrs.</label>
+                <input type="radio" id="Mrs" name="myTitle" value="Mrs.">
+    
+                <label for="Ms">Ms.</label>
+                <input type="radio" id="Ms" name="myTitle" value="Ms.">
+      
+                <br><br>
+                <label id="n" for="myName">Name :</label>
+                <input type="text" id="myName" placeholder="Name" required pattern="^.* .*$"><br><br>
+    
+                <label for="myEmail">Email :</label>
+                <input type="email" id="myEmail" placeholder="Email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" aria-errormessage="invalid mail"><br><br>
+    
+                <label for="myPhone">Phone Number :</label>
+                <input type="tel" id="myPhone" minlength="10" pattern="[0-9]{10}" maxlength="10" placeholder="Phone Number" required><br><br>
+    
+                <label for="myDob">DOB :</label>
+                <input type="date" id="myDob" placeholder="dob" required><br><br>
+
+                <label for="myAge">Age :</label>
+                <input type="number"  id="myAge" placeholder="Age" value="18" required><br><br>
+    
+                
+                <label for="myRole">Role :</label>
+                <select id="myRole" required >
+                    <option value="Front End Developer">Front End Developer</option>
+                    <option value="Back End Developer">Back End Developer</option>
+                    <option value="Full Stack Web Developer">Full Stack Web Developer</option>
+                    <option value="Andriod Developer">Andriod Developer</option>
+                </select><br><br>
+    
+                <label for="myExp">Experience :</label>
+                <input type="number" id="myExp" min="0" max="10" value="0" placeholder="Experience" required><br><br>
+                       
+                <label for="userName">User Name :</label>
+                <input type="text" id="userName" placeholder="username" required><br><br>
+    
+                <label for="myPassword">Password :</label>
+                <input type="password" id="myPassword" minlength="8" maxlength="16" placeholder="password" required><br><br>
+
+                <label for="myEnroll">Enrolled :</label>
+                <input type="checkbox" id="myEnroll" value="Enrolled"><br><br>
+
+<!-- 
+                <label for="photo">Profile Photo :</label>
+                <input type="file" id="photo" accept="image/png, image/jpeg, image/jpg" placeholder="Profile photo" required><br><br>
+
+                <label for="resume">Resume :</label>
+                <input type="file" id="resume" placeholder="resume" accept="application/pdf" required><br><br> -->
+
+                <label for="myComments">Comments :</label><br><br>
+                <textarea class="comments" id="myComments" cols="25" rows="2" placeholder="Your Comments here" required></textarea><br><br>
+
+                <button type="button" id="buttonSubmit">Submit</button>
+    
+                <br><br>
+               <script src="form.js"></script>
+                </div>
+            </form>
+        </main>
+        <footer>
+          <div id="foot">
+            <p><h4>Developer : Jacob jabakumar S</h4></p>
+          </div>
+        </footer>
+    </div>
+</body>
+</html>
